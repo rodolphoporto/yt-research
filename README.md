@@ -39,7 +39,7 @@ Com um único prompt no Claude Code você:
 ## Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/yt-research
+git clone https://github.com/rodolphoporto/yt-research
 cd yt-research
 
 # Criar ambiente virtual e instalar dependências
