@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.env
+.env.*
+
+# Outputs gerados (opcional — remova se quiser versionar os infográficos)
+# *.png
+*.mp3
+*.mp4
+*.pdf
