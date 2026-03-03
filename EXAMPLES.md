@@ -98,6 +98,135 @@ e gere um slide deck comparativo em PDF salvo em yt-research/
 
 ---
 
+## Exemplos voltados a Desenvolvimento
+
+---
+
+### Dev 1 — System Design
+
+> Pesquisar padrões de arquitetura para uma decisão técnica, gerar um documento de referência e um mind map para compartilhar com o time.
+
+```
+Busque 15 vídeos sobre "system design microservices vs monolith" no YouTube.
+Crie um notebook no NotebookLM chamado "System Design Research".
+Analise os trade-offs mais discutidos entre as duas abordagens,
+quais padrões (event-driven, CQRS, saga) aparecem como solução
+e em que cenários cada arquitetura é recomendada.
+Gere um slide deck comparativo salvo em yt-research/system-design-deck.pdf
+```
+
+**Variações úteis:**
+```
+/yt-search "domain driven design DDD" 15
+/yt-search "event sourcing CQRS" 10
+/yt-search "clean architecture backend" 12
+```
+
+---
+
+### Dev 2 — Escolha de tecnologia / stack
+
+> Pesquisar antes de adotar uma nova ferramenta, framework ou linguagem no projeto.
+
+```
+Busque 15 vídeos sobre "Rust vs Go performance backend 2025" no YouTube.
+Crie um notebook no NotebookLM chamado "Rust vs Go".
+Liste os argumentos mais usados a favor de cada linguagem,
+os casos de uso onde cada uma se destaca
+e o que a comunidade aponta como armadilhas de cada uma.
+Salve o relatório em yt-research/rust-vs-go.md
+```
+
+**Variações úteis:**
+```
+/yt-search "postgres vs mongodb when to use" 10
+/yt-search "kubernetes vs docker swarm production" 10
+/yt-search "nextjs vs remix 2025" 10
+```
+
+---
+
+### Dev 3 — Preparar entrevista técnica
+
+> Estudar um tema de entrevista a partir dos vídeos mais relevantes e gerar flashcards para revisar.
+
+```
+Busque 10 vídeos sobre "system design interview preparation" no YouTube.
+Crie um notebook no NotebookLM chamado "System Design Interview".
+Extraia os frameworks de resposta mais ensinados (ex: STAR, capacity estimation),
+os tópicos que aparecem em mais entrevistas
+e as perguntas clássicas com suas respostas resumidas.
+Gere flashcards em markdown salvos em yt-research/interview-flashcards.md
+```
+
+**Variações úteis:**
+```
+/yt-search "leetcode patterns dynamic programming" 10
+/yt-search "behavioral interview software engineer" 8
+/yt-search "API design best practices REST GraphQL" 10
+```
+
+---
+
+### Dev 4 — Onboarding de tecnologia nova para o time
+
+> Absorver rapidamente o essencial de uma tecnologia e gerar um guia interno.
+
+```
+Busque 12 vídeos sobre "Apache Kafka fundamentals" no YouTube.
+Crie um notebook no NotebookLM chamado "Kafka Onboarding".
+Gere um guia de estudo estruturado cobrindo: conceitos core (topics, partitions,
+consumer groups), casos de uso comuns, armadilhas de produção e primeiros passos.
+Salve o relatório em yt-research/kafka-guide.md
+e gere também um mind map do conteúdo.
+```
+
+**Variações úteis:**
+```
+/yt-search "redis beyond cache use cases" 10
+/yt-search "terraform fundamentals infrastructure as code" 10
+/yt-search "opentelemetry observability distributed tracing" 8
+```
+
+---
+
+### Dev 5 — Pesquisa de segurança / boas práticas
+
+> Levantar boas práticas de segurança para uma stack específica antes de fazer um security review.
+
+```
+Busque 10 vídeos sobre "API security best practices OWASP" no YouTube.
+Crie um notebook no NotebookLM chamado "API Security".
+Liste as vulnerabilidades mais citadas, as mitigações recomendadas
+e um checklist de segurança para APIs REST.
+Gere um infográfico com o checklist salvo em yt-research/api-security-checklist.png
+```
+
+---
+
+### Dev 6 — Acompanhar uma conferência / keynote
+
+> Absorver o conteúdo de uma conferência técnica sem assistir tudo.
+
+```
+Busque 20 vídeos sobre "Google I/O 2025 developer" no YouTube.
+Crie um notebook no NotebookLM chamado "Google IO 2025".
+Analise quais foram os principais anúncios para desenvolvedores,
+o que mudou em relação ao ano anterior
+e quais tecnologias valem atenção.
+Gere um relatório salvo em yt-research/google-io-2025.md
+e um audio overview em português para eu ouvir no caminho.
+```
+
+**Variações úteis:**
+```
+/yt-search "AWS re:Invent 2025 highlights" 15
+/yt-search "React Conf 2025" 10
+/yt-search "KubeCon 2025 highlights" 10
+```
+
+---
+
 ## Referência rápida de comandos
 
 | O que fazer | Prompt no Claude Code |
